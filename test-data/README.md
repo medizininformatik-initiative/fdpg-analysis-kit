@@ -1,19 +1,14 @@
 # Test data
 
-This folder contains synthetic test data for developing and testing analysis scripts before
-submission to the FDPG.
+This folder contains test data for developing and testing analysis scripts. Once the script runs sufficiently on the test data sets, a pilot dic will be contacted to evaluate the scripts before roll out to all participating sites.
 
-The data were generated from synthetic FHIR test data and processed by the **same pipeline
+The data were generated from FHIR test data and processed by the **same pipeline
 as the real data** at the Data Integration Centers (DICs):
-
-```
-synthetic FHIR data → extraction → pseudonymization → fhir2csv
-```
 
 Scripts that run on these files should therefore also run on the real extracts without changes
 to the input handling.
 
-> **Note:** The data are entirely synthetic and contain no real patient data. They reproduce the
+> **Note:** The data are entirely artificial and contain no real patient data. They reproduce the
 > structure and format of the real extracts, but not realistic distributions or clinical
 > plausibility. Do not interpret results computed on them.
 
