@@ -1,4 +1,4 @@
-# FDPG FAST – Federated Analysis Support Toolkit
+# FDPG – Federated Analysis Support Toolkit
 
 Templates, guidelines and standardized test data for federated analyses within the
 [German Portal for Medical Research Data (FDPG)](https://forschen-fuer-gesundheit.de)
