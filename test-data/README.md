@@ -12,6 +12,12 @@ to the input handling.
 > structure and format of the real extracts, but not realistic distributions or clinical
 > plausibility. Do not interpret results computed on them.
 
+> **Also note:** The datasets provided here cover the full spectrum of possible data points.
+> The data delivered to a specific research project are minimized and filtered according to the
+> specification provided by the researchers. Therefore, not all data points available in the test
+> data will be present in the real patient extract. Use your project-specific data definition
+> (CRTDL JSON) to map it to the CSV files, or contact the FDPG staff for support.
+
 ## Things to keep in mind
 
 - **One CSV per module:** Each module of the MII core data set (e.g. Person, Diagnosis,
