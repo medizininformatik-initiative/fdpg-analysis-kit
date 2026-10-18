@@ -8,11 +8,13 @@ as the real data** at the Data Integration Centers (DICs):
 Scripts that run on these files should therefore also run on the real extracts without changes
 to the input handling.
 
-> **Note:** The data are entirely artificial and contain no real patient data. They reproduce the
+> [!NOTE]
+> The data are entirely artificial and contain no real patient data. They reproduce the
 > structure and format of the real extracts, but not realistic distributions or clinical
 > plausibility. Do not interpret results computed on them.
 
-> **Also note:** The datasets provided here cover the full spectrum of possible data points.
+> [!IMPORTANT]
+> The datasets provided here cover the full spectrum of possible data points.
 > The data delivered to a specific research project are minimized and filtered according to the
 > specification provided by the researchers. Therefore, not all data points available in the test
 > data will be present in the real patient extract. Use your project-specific data definition
