@@ -25,6 +25,9 @@ to the input handling.
 - **One CSV per module:** Each module of the MII core data set (e.g. Person, Diagnosis,
   Laboratory) is exported to its own CSV file. No data are lost in this step; link the files
   via the pseudonymized patient identifiers.
+- **All CSVs are linked (mostly) to the Patient CSV:** Every module CSV (but the medication core CSV) 
+  contains a reference to the patient it belongs to, pointing to the Patient CSV. 
+  Use this reference to join the files; the Patient CSV is the central table for combining data across modules.
 - **Timestamp formats may differ:** FHIR allows dates of varying precision (e.g. `2024`,
   `2024-05`, `2024-05-17`, `2024-05-17T08:30:00+02:00`). Parse dates robustly and do not assume
   a single format.
