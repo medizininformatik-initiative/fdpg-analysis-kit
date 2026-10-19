@@ -17,7 +17,6 @@ researchers and sites need to run such projects in a standardized, traceable and
 fdpg-fast/
 ├── test-data/      # Standardized synthetic test datasets in the FDPG input format
 ├── templates/      # Templates for project documentation (README, test report, ...)
-├── guidelines/     # Analysis guide, process description and checklists
 └── docs/           # Figures and further documentation (e.g. workflow diagram)
 ```
 
