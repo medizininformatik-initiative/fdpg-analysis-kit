@@ -14,7 +14,7 @@ researchers and sites need to run such projects in a standardized, traceable and
 ## Repository structure
 
 ```
-fdpg-fast/
+fdpg-analysis-kit/
 ├── test-data/      # Standardized synthetic test datasets in the FDPG input format
 ├── templates/      # Templates for project documentation (README, test report, ...)
 └── docs/           # Figures and further documentation (e.g. workflow diagram)
